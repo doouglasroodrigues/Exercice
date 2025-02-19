@@ -44,7 +44,7 @@ p.gmail , p.senha {
 
 input#igmail , input#isenha {
     padding: 10px;
-    max-width: 24em;
+    max-width: 94%;
     border-radius: 10px;
     background-color: rgba(237, 235, 235, 0.641);
 }
