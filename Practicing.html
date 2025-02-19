@@ -11,14 +11,15 @@
         <article id="formulação">
             <h1 class="title">Faça o Seu Login</h1>
 
-            <form action="Cadastro.html" method="post" >
+            <form action="Cadastro.php" method="post" autocomplete="on">
                 <p class="gmail"><label for="igmail">Seu E-mail*</label></p>
-                <input type="email" name="gmail" id="igmail">
+                <input type="email" name="gmail" id="igmail" required minlength="10" maxlength="30" size="40" placeholder="Seu Gmail" autocomplete="email" >
 
                 <p class="senha"><label for="isenha">Sua Senha*</label></p>
-                <input type="password" name="senha" id="isenha">
+                <input type="password" name="senha" id="isenha" required minlength="8" maxlength="35" size="40" placeholder="123456789" autocomplete="current-password">
                 <br>
                 <input class="botao" type="submit" value="Entrar">
+                <input class="botao" type="reset" value="Limpar">
             </form>
         </article>
     </main>

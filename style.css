@@ -43,7 +43,8 @@ p.gmail , p.senha {
 }
 
 input#igmail , input#isenha {
-    font-size: 30px;
+    padding: 10px;
+    font-size: 16px;
     border-radius: 10px;
     background-color: rgba(237, 235, 235, 0.641);
 }
