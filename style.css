@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(imagem/fundo.jpg);
+}
+
+main {
+    margin: auto;
+    margin-top: 120px;
+    max-width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow:1px 1px 8px 1px  rgba(0, 0, 0, 0.427);
+    border-radius: 25px;
+    
+}
+
+article#formulação {
+    padding: 60px;
+    
+}
+
+h1.title {
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
+p.gmail , p.senha {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input#igmail , input#isenha {
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgba(237, 235, 235, 0.641);
+}
+
+input.botao {
+    margin: 30px 10px 9px 0px;
+    padding: 10px 60px 10px 55px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom , #53b4e1 , #16475d);
+    box-shadow: 0px 0px 10px 0px black inset;
+}
+
+input.botao:hover {
+    background-image: linear-gradient(to bottom , #4fb1ae , #5996b3);
+    font-size: 15.5px;
+    transition-duration: 0.3s;
+}
