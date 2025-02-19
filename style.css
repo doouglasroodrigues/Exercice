@@ -26,7 +26,7 @@ main {
 }
 
 article#formulação {
-    padding: 60px;
+    padding: 73px;
     
     
 }
@@ -44,7 +44,7 @@ p.gmail , p.senha {
 
 input#igmail , input#isenha {
     padding: 10px;
-    font-size: 16px;
+    max-width: 24em;
     border-radius: 10px;
     background-color: rgba(237, 235, 235, 0.641);
 }
@@ -52,7 +52,7 @@ input#igmail , input#isenha {
 input.botao {
     margin: 30px 10px 9px 0px;
     padding: 10px 60px 10px 55px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     border-radius: 50px;
